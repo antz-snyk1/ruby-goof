@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.2'
+ruby '2.6.8'
 
 #introducing a vulnerability for snyk
 # gem 'easymon', '1.2.2'
@@ -10,6 +10,11 @@ ruby '2.7.2'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+
+#test: no idea what will happen
+gem 'dragonfly', '~> 1.2.0'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
